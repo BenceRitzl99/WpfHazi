@@ -1,0 +1,24 @@
+﻿<Window x:Class="WpfAppHazi.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfAppHazi"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Canvas>
+        <Ellipse Fill="Indigo" Canvas.Left="30" Canvas.Top="30" Width="200px" Height="200px">
+            
+        </Ellipse>
+
+        <Rectangle Fill="DarkBlue" Width="60" Height="60" Canvas.Left="25" Canvas.Top="25" Panel.ZIndex="2"></Rectangle>
+        <Rectangle Fill="Red" Width="60" Height="60" Canvas.Left="50" Canvas.Top="50" Panel.ZIndex="4"></Rectangle>
+        <Rectangle Fill="Beige" Width="60" Height="60" Canvas.Left="75" Canvas.Top="75" Panel.ZIndex="3"></Rectangle>
+        <Button Width="100" Height="20" >Gomb</Button>
+        <Button Width="800" Height="20" Canvas.Top="360" >Gomb</Button>
+        <Button Width="100" Height="20" Canvas.Top="0" Canvas.Left="100">Gomb</Button>
+        <Button Width="100" Height="20" Canvas.Right="0" Canvas.Bottom="0">Gomb</Button>
+        <Button Width="100" Height="20" Canvas.Left="0" Canvas.Bottom="0">Gomb</Button>
+        <Button Width="100" Height="20" Canvas.Right="0">Gomb</Button>
+    </Canvas>
+</Window>
